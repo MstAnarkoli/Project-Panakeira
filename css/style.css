@@ -1,0 +1,362 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*
+	Author: Mst Anarkoli
+	Mail: anarkoliniru@gmail.com
+
+*/
+/*
+	===Index==
+	1. Header
+	2. Fusce at
+	3. Facilisis
+	4. Ante donec
+	5. Blandit rhoncus
+	6. Placerat
+	7. Footer
+*/
+
+/* Global CSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+h4{
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+h5{
+	font-size: 30px;
+	color: #161616;
+	
+}
+h3{
+	font-size: 24px;
+	color: #161616;
+	font-weight: 700;
+	padding-top: 30px;
+
+	
+}
+
+
+h6{
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 35px
+}
+
+p{
+	font-size: 15px;
+	color: #161616;
+	line-height: 30px;
+	text-align: center;
+	padding: 0 15px;
+}
+.hero-btn{
+	background-color: #ffffff;
+    color: #612316;
+    padding: 13px 60px;
+    border-radius: 50px;
+    margin: 5% auto;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.news-btn{
+	background-color: #ffffff;
+    color: #612316;
+    padding: 13px 60px;
+    border-radius: 50px;
+    margin: 20px 0;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+
+/* Theme CSS */
+
+/* Header CSS */
+
+header{
+
+
+}
+.nav-head{
+	padding:30px 0px;
+	background-color: #edeff1;
+
+}
+
+.nav-link{
+	color: #31353e;
+	margin-bottom: 0px 10px;
+
+}
+.nav-link.js-scroll-trigger.active{
+
+	background-color: #dd4b2b;
+	color: #ead7d5;
+	border-radius: 50px;
+	padding: 5px 10px;
+	margin: 0 10px;
+
+}
+.hero{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-bottom: 120px;
+	
+	
+}
+
+.hero-main{
+	padding-top: 400px;
+	padding-bottom: 30px;
+
+}
+.hero-main h2{
+	font-size:62px;
+	color: #ffffff;
+	font-weight: 300;
+
+}
+
+.round{
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.Fusce-one h6{
+	margin-bottom: 30px;
+}
+
+.Facilisis{
+	padding-bottom: 100px;
+	background-color: #edeff1;
+
+}
+
+.news-head h5{
+	padding:50px 0;	
+}
+
+.news-img h5{
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.Ante{
+	width: 100%;
+	float: left;
+	background: url(../img/footer.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding: 80px 0;
+	padding-bottom: 100px;
+
+
+}
+.Ante::before{
+	content:'';
+	width: 100%;
+	height: 100%;
+	background-color:#161616;
+	opacity: .3;
+	position: absolute;
+	top:0;
+}
+.contact{
+	text-align: center;
+	color: #fff;
+}
+.form-control{
+	background: transparent;
+    border-radius: 30px;
+    position: relative;
+    padding: 25px 15px;
+    color: white;
+
+}
+.submit-btn{
+	background-color: #ffffff;
+    color: #612316;
+    padding: 13px 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top:0;
+
+
+}
+::-webkit-input-placeholder{
+	color: #fff!important;
+}
+
+.blandit{
+	padding: 50px 0;
+}
+.blandit-one{
+	padding: 50px 0;
+}
+.blandit-text{
+	
+	padding: 50px 0;
+	
+}
+.blandit-text h5{
+	text-align: left;
+	font-weight: 700;
+}
+.blandit-text p{
+	text-align: left;
+	font-size: 16px;
+	padding: 0;
+	padding-right: 50px;
+	line-height: 30px;
+}
+.signone-btn{
+	background-color: #d75d0e;
+    color: #fff;
+    padding: 13px 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+
+    
+
+
+}
+
+.signtwo-btn{
+	background-color: #4b4e73;
+    color: #fff;
+    padding: 13px 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    
+
+}
+
+
+.Placerat{
+	padding:80px 0; 
+	background-color: #d75d0e;
+	color: #ffffff;
+
+}
+.Placerat ul{
+	list-style: none;
+}
+.Placerat ul li{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background: url(../img/footer.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	height: 375px;
+	position: relative;
+
+}
+footer::before{
+	content:'';
+	width: 100%;
+	height: 100%;
+	background-color:#161616;
+	opacity: .3;
+	position: absolute;
+	top:0;
+}
+footer h6{
+	font size: 18px;
+	width: 80%;
+	text-align: center;
+
+}
+footer span{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+
+
+
+/* Responsive Breakpoint media query*/
+
+/* mobile device  */
+
+@media(min-width: 320px) and (max-width: 576px){
+
+.hero-main{
+	padding-top: 60px;
+
+}
+.hero-main h2{
+	font-size:30px;
+	font-weight: 700;
+	
+}
+
+
+
+}
+/* small device*/
+
+@media(min-width: 576.01px) and (max-width: 768px){
+.hero-main{
+	padding-top: 60px;
+
+}
+.hero-main h2{
+	font-size:40px;
+	font-weight: 700;
+	
+}
+
+}
+
+
+
+
+
